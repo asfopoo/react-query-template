@@ -12,7 +12,6 @@ function authReducer(state: AuthState, action: AuthAction) {
         isLoading: false,
       };
     case 'SIGN_IN':
-      console.log('SIGN_IN', action.token);
       SecureStore.setItemAsync('userToken', action.token); // await??
       return {
         ...state,

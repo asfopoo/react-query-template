@@ -8,8 +8,6 @@ import AuthStack from '../stacks/publicStacks/AuthStack';
 export default function RootNavigator() {
   const { authState, dispatchAuth } = useAuth();
 
-  console.log(authState);
-
   useEffect(() => {
     // Fetch the token from storage then navigate to our appropriate place
     (async () => {
