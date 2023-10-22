@@ -27,7 +27,7 @@ export default function RegistrationScreen() {
           onSubmit={(values) => {
             console.log('register');
           }}
-          validationSchema={loginSchema}
+          validationSchema={loginSchema} // TODO: registration schema
         >
           {({
             handleChange,
@@ -53,7 +53,7 @@ export default function RegistrationScreen() {
                   />
                 );
               })}
-              <Text onPress={handleSubmit}>Login</Text>
+              <Pressable onPress={() => handleSubmit()}>Login</Pressable>
             </>
           )}
         </Formik>
