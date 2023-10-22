@@ -50,7 +50,9 @@ export default function LoginScreen({ navigation }: Props) {
                   />
                 );
               })}
-              <Pressable onPress={() => handleSubmit()}>Login</Pressable>
+              <Pressable onPress={() => handleSubmit()}>
+                <Text>Login</Text>
+              </Pressable>
             </>
           )}
         </Formik>

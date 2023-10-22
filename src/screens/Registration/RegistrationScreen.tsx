@@ -53,7 +53,9 @@ export default function RegistrationScreen() {
                   />
                 );
               })}
-              <Pressable onPress={() => handleSubmit()}>Login</Pressable>
+              <Pressable onPress={() => handleSubmit()}>
+                <Text>Login</Text>
+              </Pressable>
             </>
           )}
         </Formik>
