@@ -19,6 +19,9 @@ export default function SettingsScreen() {
       </Text>
       <Text>Notifications - subscribe to enable</Text>
       <Text>Support - contact, submit ticket</Text>
+      <Text>Transfer Org ownership</Text>
+      <Text>Manage org members</Text>
+      <Text>Leave org </Text>
       <Text onPress={handleSignOut}>Sign out</Text>
     </View>
   );
