@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "scanner-mobile",
-    "slug": "scanner-mobile",
+    "name": "tanstack-template",
+    "slug": "tanstack-template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

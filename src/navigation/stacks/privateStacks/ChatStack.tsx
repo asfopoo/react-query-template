@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import ChatScreen from '../../../screens/ChatScreen';
+import ChatScreen from '../../../screens/RoastScreen';
 import { PRIVATE_ROUTES } from '../../routes';
 import { ChatStackParamList } from '../../types';
 

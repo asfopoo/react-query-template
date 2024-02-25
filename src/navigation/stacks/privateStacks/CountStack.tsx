@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import CountScreen from '../../../screens/CountScreen';
+import CountScreen from '../../../screens/HypeScreen';
 import { PRIVATE_ROUTES } from '../../routes';
 import { CountStackParamList } from '../../types';
 

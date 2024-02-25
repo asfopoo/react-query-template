@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import ScannerScreen from '../../../screens/ScannerScreen';
+import ScannerScreen from '../../../screens/RizzScreen';
 import { PRIVATE_ROUTES } from '../../routes';
 import { ScannerStackParamList } from '../../types';
 

@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import SettingsScreen from '../../../screens/ScannerScreen';
+import SettingsScreen from '../../../screens/RizzScreen';
 import { PRIVATE_ROUTES } from '../../routes';
 import { SettingsStackParamList } from '../../types';
 
